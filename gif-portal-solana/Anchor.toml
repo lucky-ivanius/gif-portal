@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+gif_portal_solana = "HwxX36APdWJ6YDepJwg6ivApXsBkzvFXzcDdRoSV7bav"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/lucky/.config/solana/id.json"
+
+[scripts]
+test = "node tests/gif-portal-solana.js"
